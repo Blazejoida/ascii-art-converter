@@ -1,0 +1,3 @@
+LIBRARY konwersja_asm
+EXPORTS get_required_buffer_size
+EXPORTS konwertuj_ascii_core
