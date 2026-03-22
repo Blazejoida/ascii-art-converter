@@ -39,6 +39,19 @@ packuswb xmm1, xmm2   ; spakowanie z powrotem do bajtów
 ```
 
 ---
+ 
+## Wymagania
+ 
+- System operacyjny: **Windows x64**
+- Biblioteka: **OpenCV**
+- Pliki DLL w katalogu roboczym:
+  - `opencv_world4120.dll` (build Release)
+  - `opencv_world4120d.dll` (build Debug)
+  
+  Domyślna ścieżka w projekcie: `Asembler_projekt\ascii_art\ascii_art\`
+- Procesor obsługujący **SSE4.1** (wymagane dla trybu ASM)
+ 
+---
 
 ## Tryby pracy
 
