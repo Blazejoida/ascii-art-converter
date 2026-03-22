@@ -14,8 +14,8 @@ uporządkowanych według rosnącej jasności - od gęstych znaków takich jak `$
 
 ### Kluczowe cechy
 
-- **Dwie wersje algorytmu konwersji** — asemblerowa (SSE4.1) oraz referencyjna w C++ (z opcjonalną flagą O2)
-- **Wielowątkowe przetwarzanie folderów** — równoległe przetwarzanie wielu obrazów z pulą wątków (1–64)
+- **Dwie wersje algorytmu konwersji** - asemblerowa (SSE4.1) oraz referencyjna w C++ (z opcjonalną flagą O2)
+- **Wielowątkowe przetwarzanie folderów** - równoległe przetwarzanie wielu obrazów z pulą wątków (1–64)
 - **Interfejs graficzny** oparty na OpenCV 
 - **Automatyczny zapis wyników** do struktury katalogów `wyniki/` (pliki `.txt`, `.png`, `.csv`)
 
@@ -53,7 +53,7 @@ packuswb xmm1, xmm2   ; spakowanie z powrotem do bajtów
 
 Po konwersji pojawia się komunikat:
 ```
-Pojedynczy – Calkowity: X ms  DLL: Y ms  (Z watkow, TRYB)
+Pojedynczy - Calkowity: X ms  DLL: Y ms  (Z watkow, TRYB)
 ```
 
 ### Tryb: Folder obrazów
@@ -65,5 +65,5 @@ Pojedynczy – Calkowity: X ms  DLL: Y ms  (Z watkow, TRYB)
 
 Po zakończeniu pojawia się komunikat:
 ```
-Folder – Calkowity: X ms  DLL (suma): Y ms  (Z zdjec, W watkow)
+Folder - Calkowity: X ms  DLL (suma): Y ms  (Z zdjec, W watkow)
 ```
